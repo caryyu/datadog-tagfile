@@ -1,4 +1,4 @@
 TEAM=MX
 SERVICE=SPACE
-ENV=PRODUCTION .*?/.*?/master
-ENV=STAGING .*?/.*?/PR*
+.*?/.*?/master ENV=PRODUCTION
+.*?/.*?/PR* ENV=STAGING
