@@ -2,4 +2,4 @@ TEAM:MX
 SERVICE:SPACE
 test-1,ENV:TEST
 .*?/.*?/master,ENV:PRODUCTION
-.*?/.*?/PR*,ENV:STAGING
+.*?/.*?/PR.*,ENV:STAGING
